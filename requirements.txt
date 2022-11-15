@@ -1,0 +1,12 @@
+gtts #TalkBack
+pygame #playing Audio
+imutils
+colorama #only for colours in cmd
+telebot #sending Telegram bot
+mtcnn
+numpy
+sklearn
+opencv-python
+matplotlib #drawing graphs
+tensorflow
+#tensorflow-directml-plugin #activate(remove '#') only for GPU acceleration

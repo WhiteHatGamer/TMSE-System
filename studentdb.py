@@ -12,14 +12,14 @@
 #another
 student_db = [
     #'TKR18CS001': 'ABHILASH',
-    {'admn':'18/007/CS/TKR', 'univ':'TKR18CS002', 'name': 'ABIN JOSE SHAJU'},
+    {'admn':'18/007/CS/TKR', 'univ':'TKR18CS002', 'name':'ABIN JOSE SHAJU'},
     #'TKR18CS003': 'AKSHAY C K',
-    #'TKR18CS004': 'AMITH V',
-    #'TKR18CS005': 'AMRITHESH VALSAN P',
+    {'admn':'18/152/CS/TKR', 'univ':'TKR18CS004', 'name':'AMITH V'},
+    {'admn':'18/123/CS/TKR', 'univ':'TKR18CS005', 'name':'AMRITHESH VALSAN P'},
     #'TKR18CS006': 'ANAKHA KRISHNA',
     #'TKR18CS007': 'ANNOWAYA E V',
     #'TKR18CS008': 'ANUGRAHA MANOHARAN',
-    #'TKR18CS009': 'ANUJITH M V',
+    {'admn':'18/102/CS/TKR', 'univ':'TKR18CS009', 'name':'ANUJITH M V'},
     #'TKR18CS010': 'ANUPRIYA P',
     #'TKR18CS011': 'APARNA K P',
     #'TKR18CS012': 'ARJUN K V',
