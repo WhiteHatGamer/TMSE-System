@@ -1,0 +1,13 @@
+gtts #TalkBack
+pygame #playing Audio
+imutils #preprocessing Images
+colorama #only for colours in cmd
+telebot #sending Telegram bot
+mtcnn
+numpy #operations with multi dimensional array
+scikit-learn #pre processing, Model creation
+opencv-python #python cv2 library
+pillow #image operations,Loading etc
+matplotlib #plotting graphs
+tensorflow #image to array, Load Models, Make models
+#tensorflow-directml-plugin #activate(remove '#') only for GPU acceleration
