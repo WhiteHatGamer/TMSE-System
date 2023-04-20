@@ -13,6 +13,9 @@ import cv2
 
 #importable functions
 #mask_video()
+#Give Ip address and port as string here:
+IP_ADDR = "192.168.0.100"
+VID_PORT = "4747"
 
 #[INFO]Commenting Codes are for Displayed Devices
 
@@ -72,7 +75,7 @@ def mask_video(ip,port):
         return frame,label
 
 try:
-    frame,label = mask_video("192.168.251.80","4747")
+    frame,label = mask_video(IP_ADDR,VID_PORT)
     label=label.split(":")
     student_name="Unrecognised Face"
     if label[0] == "No Mask":
