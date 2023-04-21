@@ -50,7 +50,7 @@ Modules and Functions
 .. automodule:: telegrambot
    :members: sendht, sendnnm, sendnostud, sendstudnomask
 
-... automodule:: temperature
+.. automodule:: temperature
    :members: read_temp_raw, read_temp
 
 
