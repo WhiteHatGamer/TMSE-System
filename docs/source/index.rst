@@ -18,3 +18,39 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+Modules and Functions
+=====================
+
+.. automodule:: buzzer
+   :members: buzz, buzzlong
+
+.. automodule:: detect_mask
+   :members: mask_video, mask_ipvideo
+
+.. automodule:: entry
+   :members: csventry, csvhightemp
+
+.. automodule:: lcd
+   :members: lcd_display
+
+.. automodule:: servo
+   :members: opensimsim
+
+.. automodule:: studentdb
+   :members: findnm
+
+   :py:func:`time.sleep`
+
+.. automodule:: talkback
+   :members: TTstudnm, TTstr, playsn, TTstudnomask
+
+.. automodule:: telegrambot
+   :members: sendht, sendnnm, sendnostud, sendstudnomask
+
+... automodule:: temperature
+   :members: read_temp_raw, read_temp
+
+

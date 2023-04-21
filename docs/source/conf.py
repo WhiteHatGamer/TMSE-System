@@ -1,4 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
+import sys,os
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
@@ -14,12 +15,19 @@ release = '1.2.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+    'myst_parser',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx'
+]
 
-templates_path = ['_templates']
+templates_path = [
+    '_templates'
+]
 exclude_patterns = []
 
-
+sys.path.append('S:\src\TMSE-System\Lib')
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
