@@ -42,8 +42,6 @@ Modules and Functions
 .. automodule:: studentdb
    :members: findnm
 
-   :py:func:`time.sleep`
-
 .. automodule:: talkback
    :members: TTstudnm, TTstr, playsn, TTstudnomask
 
@@ -53,4 +51,11 @@ Modules and Functions
 .. automodule:: temperature
    :members: read_temp_raw, read_temp
 
+.. automodule:: RPi.GPIO
+   :members: setmode, setwarnings, setup, output, cleanup
 
+   :py:func:`time.sleep`
+
+   :py:func:`str`
+
+   :py:func:`str.join`

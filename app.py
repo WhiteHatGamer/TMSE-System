@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 from Lib.lcd import lcd_display
 from Lib.talkback import TTstudnm, TTstr, playsn
-import Lib.studentdb as studentdb
+from Lib.studentdb import findnm
 from Lib.temperature import read_temp
 from Lib.detect_mask import mask_video
 import Lib.telegrambot as telegrambot

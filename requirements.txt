@@ -11,3 +11,5 @@ pygame #playing Audio
 colorama #only for colours in cmd
 telebot #sending Telegram bot
 pillow #image operations,Loading etc
+sphynx
+myst_parser
