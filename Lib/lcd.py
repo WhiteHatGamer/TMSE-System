@@ -137,3 +137,10 @@ def lcd_toggle_enable():
     #lcd_byte(0x01, LCD_CMD)
     #lcd_display("Goodbye!",LCD_LINE_1)
     #GPIO.cleanup()
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

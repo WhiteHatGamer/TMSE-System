@@ -24,3 +24,10 @@ def sendstudnomask(frame,student_name):
         frametemp = encoded_image.tobytes()
         bot.send_photo('@cetkrauth', photo = frametemp)
         bot.send_message('@cetkrauth', "Found a lad with No Mask Roaming the Campus. Name={}".format(student_name))
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

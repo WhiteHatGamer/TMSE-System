@@ -12,6 +12,7 @@ mixer.init()
 #TTstudnm
 #TTstr
 #playsn
+#TTstudnomask
 
 def TTstudnm(student_name):
     mixer.music.unload()
@@ -52,3 +53,10 @@ def TTstudnomask(student_name):
     mixer.music.load("audio/studnomask.mp3")
     mixer.music.set_volume(1.0)
     mixer.music.play()
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

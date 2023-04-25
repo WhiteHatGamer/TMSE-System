@@ -32,9 +32,9 @@ def read_temp():
             temp_c = round(temp_c,3)
             temp_f = temp_c * 9.0 / 5.0 + 32
             temp_f = round(temp_f,3)
-            maxc=temp_c if maxc<tempc else maxc
-            maxf=temp_f if maxc<tempc else maxf
-        delay(0.8)
+            maxc=temp_c if maxc<temp_c else maxc
+            maxf=temp_f if maxc<temp_c else maxf
+        time.sleep(0.8)
     return maxc, maxf
 #try:
     #while True:
@@ -42,3 +42,10 @@ def read_temp():
         #time.sleep(1)       
 #except KeyboardInterrupt:
     #os.system('exit()')
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

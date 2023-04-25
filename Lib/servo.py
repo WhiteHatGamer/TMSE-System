@@ -24,3 +24,10 @@ def opensimsim(tm):
     #p.ChangeDutyCycle(3.1)
 #except KeyboardInterrupt:
     #GPIO.cleanup()
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

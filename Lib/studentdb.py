@@ -74,6 +74,7 @@ student_db = [
 
 #For Main Program
 def findnm(student_id):
+    """For finding the student name and university id with college id"""
     try:
         for i in student_db:
             if (i['admn'] == student_id):
@@ -154,3 +155,10 @@ def findnm(student_id):
     #'TKR17CS012': 'ARJUN RAJ K M',
     #'TKR17CS027': 'MUHAMMED THAHIR'
 #}
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
